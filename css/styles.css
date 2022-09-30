@@ -756,6 +756,10 @@ img {
     cursor: pointer;
 }
 
+label {
+    display: block;
+}
+
 
 
 
