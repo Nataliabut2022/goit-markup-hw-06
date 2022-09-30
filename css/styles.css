@@ -526,8 +526,11 @@ img {
     text-transform: uppercase;
 }
 
-.social-footer-list {
-    
+.social-form-text {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
   
