@@ -492,15 +492,21 @@
                 </label>
 
                 <label class="register-form-field">
-                    <span class="register-form-label">Коментар</span>
+                    <span class="register-form-heading">Коментар</span>
                     <textarea class="register-form-message" name="comment" rows="5" placeholder="Введіть текст"></textarea>
                 </label>
                 </div>                
 
                 <label class="register-form-agreement">
-                    <input class="register-form-checkbox" type="checkbox" name="agree" required>
+                    <input class="register-form-checkbox visually-hidden" type="checkbox" 
+                    name="" id="" required>
+                    <svg class="register-form-icons" width="16" height="15">
+                        <use class="icon-checked" href="./images/icons.svg#check"></use>
+                        <use class="icon-unchecked" href="./images/icons.svg#uncheck"></use>
+                    </svg>
+
                     <span class="register-form-desc">Погоджуюся з розсилкою та приймаю 
-                        <a class="register-form-link" href="">Умови договору</a>
+                        <a class="register-form-link" href="" target="_blank">Умови договору</a>
                     </span>                    
                 </label>
 
