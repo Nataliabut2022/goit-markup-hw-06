@@ -500,8 +500,9 @@ img {
 }
 
 .social-form-text {
-    color: #FFFFFF;
+    display: block;
     margin-bottom: 20px;
+    color: #FFFFFF;    
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -528,8 +529,7 @@ img {
 .portfolio-link {
     display: block;  
     text-decoration: none;
-    color: var(--main-txt-cl);
-    
+        
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -607,9 +607,12 @@ img {
 }
 
 .container-footer {
-    display: flex;
-    gap: 70px;
+    display: flex;   
     align-items: baseline
+}
+
+.contact-footer {
+    margin-right: 70px;
 }
 
 .logo2 {
@@ -653,6 +656,10 @@ img {
     margin-bottom: 9px;
 }
 
+.social-footer {
+    margin-right: auto;
+}
+
 .subs-form {
     display: flex;
 }
@@ -678,8 +685,7 @@ img {
 }
 
 .subs-btn {   
-    width: 200px;
-    height: 50px;
+    padding: 10px 28px;
     margin-left: 12px;
     
     font-size: 16px;
@@ -778,7 +784,8 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover {
+.modal-btn:hover,
+.modal-btn:focus {
     fill: var(--accent-txt-cl);
 }
 
@@ -801,6 +808,10 @@ img {
     position: relative;
     display: block;
     margin-bottom: 10px;
+}
+
+.register-form-field:last-child {
+    margin-bottom: 0;
 }
 
 .register-form-label {
@@ -926,8 +937,7 @@ img {
 .register-form-btn {
     display: block;
     margin: 0 auto;
-    width: 200px;
-    height: 50px;
+    padding: 10px 52px;
         
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
