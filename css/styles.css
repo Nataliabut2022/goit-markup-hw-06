@@ -527,6 +527,8 @@ img {
 
 .portfolio-link {
     display: block;  
+    text-decoration: none;
+    color: var(--main-txt-cl);
     
     transition-property: box-shadow;
     transition-duration: 250ms;
