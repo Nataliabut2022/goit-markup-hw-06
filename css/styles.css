@@ -22,7 +22,6 @@
 }
 
 .current {   
-    
     position: relative;
 
     color: var(--accent-txt-cl);
@@ -43,8 +42,6 @@
 
     background-color: var(--accent-bg-cl)
 }
-
-
 
 .list {
     display: flex;
@@ -67,11 +64,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
-
-    outline: 2px solid red;
-    outline-offset: -2px;
-
+    margin-right: auto;  
 }
 
 .page {
@@ -94,8 +87,7 @@ img {
 .header-nav {
     margin-right: auto;
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .logo {
@@ -112,7 +104,6 @@ img {
     color: var(--accent-txt-cl);
 }
 
-
 .wrap {
     display: flex;
     justify-content: center;
@@ -124,10 +115,7 @@ img {
     display: flex;      
 }
 
-.site-nav-link {    
-
-    
-
+.site-nav-link {     
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -157,14 +145,12 @@ img {
     color: var(--accent-txt-cl);    
 }
     
-
 .nav-list {    
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    cursor: pointer;
-        
+    cursor: pointer;        
 }
 
 .nav-item {    
@@ -193,7 +179,6 @@ img {
 .nav-item:focus {
     color: var(--accent-txt-cl);
 }
-
 
 .hero {
     background-color: #2F303A; 
@@ -295,8 +280,6 @@ img {
     width: 270px;
 }
 
-
-
 .benefit-icons {
     width: 100%;
     height: 120px;
@@ -327,7 +310,6 @@ img {
     padding-bottom: 94px;    
 }
 
-
 .work-title, .team-title, .clients-title {
     margin-bottom: 50px;
     font-size: 36px;
@@ -342,8 +324,7 @@ img {
 }
 
 .work-thumb {
-    position: relative;
-    
+    position: relative;    
 }
 
 .work-overlay {
@@ -377,14 +358,10 @@ img {
     color: var(--light-txt-cl);
 }
 
-
-
-
 .clients {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    
+    gap: 30px;    
 }
 
 .clients-link {
@@ -400,8 +377,7 @@ img {
 
     transition-property: color, border;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
 .clients-link:hover,
@@ -413,7 +389,6 @@ img {
 .clients-icon {
     fill: currentColor;
 }
-
 
 .our-team {
     padding-top: 94px;
@@ -439,7 +414,6 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 
 .team-title {
     margin-bottom: 50px;
@@ -467,8 +441,6 @@ img {
     justify-content: center;
     gap: 10px;
 }
-
-
 
 .socials-link {
     display: flex;
@@ -534,7 +506,6 @@ img {
     text-transform: uppercase;
 }
 
-  
 .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -547,13 +518,11 @@ img {
 }
 
 .portfolio .list {    
-    background: #FFFFFF;
-        
+    background: #FFFFFF;        
 }
 
 .portfolio-item {
-    flex-basis: calc((100% - 60px) / 3);    
-    
+    flex-basis: calc((100% - 60px) / 3);   
 }
 
 .portfolio-link {
@@ -564,13 +533,11 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .portfolio-link:hover,
 .portfolio-link:focus {
     background-color: var(--main-bg-cl);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);    
 }
-
 
 .portfolio-thumb {
     position: relative;
@@ -608,7 +575,6 @@ img {
     transform: translateY(0);
 }
 
-
 .pi {
     padding-top: 20px;
     padding-right: 24px;
@@ -618,7 +584,6 @@ img {
     border-bottom: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
 }
-
 
 .portfolio-item-title {
     font-size: 18px;
@@ -663,11 +628,6 @@ img {
     font-style:normal    
 } 
 
-
-.contacts-link {
-    
-}
-
 .footer-text {
     font-size: 14px;
     line-height: calc(24 / 14);   
@@ -686,11 +646,32 @@ img {
 .footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
+
+.social-form-text {
+    
+}
+
+.subs-form-input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 16px;
+    line-height: 20px;           
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: transparent;   
+    
+}
   
-
-
-
-
 
 .visually-hidden {
     position: absolute;
@@ -817,6 +798,8 @@ img {
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    cursor: pointer;
 }
 
 .register-form-input:focus {
@@ -869,7 +852,6 @@ img {
     border-color: var(--accent-bg-cl);
 }
 
-
 .register-form-agreement {
     display: flex;
     align-items: center;
@@ -913,7 +895,6 @@ img {
 .register-form-link {
     color: var(--accent-txt-cl);
 }
-
 
 .register-form-btn {
     display: block;
